@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"PhotoWeather App "</string>
+    <string name="permission_denied">Permission denied.</string>
+    <string name="loading">loading…</string>
+    <string name="loading_weather">Loading weather info…</string>
+    <string name="trying_to_get_current_location">Trying to get current location…</string>
+
+    <string name="welcome_to_country">Welcome to  %1$s! </string>
+    <string name="weather_temp">Weather temp is %1$s °F </string>
+    <string name="wind_speed">Wind Speed is %1$s km/h </string>
+
+    <string name="facebook_app_id">149103992368223</string>
+
+
+</resources>
