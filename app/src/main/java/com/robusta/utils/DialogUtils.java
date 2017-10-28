@@ -46,15 +46,15 @@ public class DialogUtils {
 
     public static Dialog showFullImageDialog(Context context, @DrawableRes int image) {
 
-        Dialog settingsDialog = new Dialog(context);
-        settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        Dialog dialog = new Dialog(context);
+        dialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         View view = LayoutInflater.from(context).inflate(R.layout.image_full_size_layout
                 , null);
         ImageView imageView = (ImageView) view.findViewById(R.id.image_view_photo);
         imageView.setImageResource(image);
-        settingsDialog.setContentView(view);
+        dialog.setContentView(view);
 
-        return settingsDialog;
+        return dialog;
 
     }
 
